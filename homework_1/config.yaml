@@ -1,0 +1,15 @@
+de_app_hw_1:
+  host: https://robot-dreams-de-api.herokuapp.com
+  endpoint: /out_of_stock
+
+  start_date: 2021-08-01
+  end_date: 2021-08-08
+
+  auth_endpoint: /auth
+  headers:
+    content-type: application/json
+  credentials:
+    username: rd_dreams
+    password: djT6LasE
+
+  dir: data
